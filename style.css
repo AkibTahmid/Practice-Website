@@ -1,0 +1,77 @@
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 65px;
+    color: rgb(80, 80, 80);
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(80, 80, 80);
+    font-size: 40px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.imagine {
+    font-size: 20px;
+}
+
+.orange {
+    color: orange;
+}
+
+.order-button {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(255, 198, 198), tomato);
+    color: white;
+    padding: 20px 35px;
+    border-radius: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.first-section {}
+
+.flex-container {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2%;
+}
+
+.half-width2 {
+    width: 50%;
+    margin-left: 15%;
+    padding-top: 5%;
+}
+
+.half-width3 {
+    width: 50%;
+    margin-right: 15%;
+    padding-top: 8%;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+.about-me {
+    background-image: url(images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.about-body {
+    display: flex;
+    height: 100%;
+}
+
+.about-me img {
+    width: 400px;
+}
