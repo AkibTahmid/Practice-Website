@@ -10,8 +10,27 @@ h2 {
     font-size: 40px;
 }
 
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 70px;
+    font-weight: 700;
+}
+
 p {
     font-family: 'Montserrat', sans-serif;
+}
+
+.gap {
+    margin-top: -20%;
+    font-size: 20px;
 }
 
 .imagine {
@@ -19,7 +38,7 @@ p {
 }
 
 .orange {
-    color: orange;
+    color: rgb(255, 102, 0);
 }
 
 .order-button {
@@ -74,4 +93,72 @@ p {
 
 .about-me img {
     width: 400px;
+}
+
+.center {
+    text-align: center;
+}
+
+#text-big {
+    font-size: 20px;
+}
+
+.flex-container2 {
+    display: flex;
+    margin-left: 5%;
+    margin-right: 60%;
+}
+
+.half-width4 img {
+    width: 750px;
+}
+
+.half-width4 {
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    border-radius: 60px;
+    box-shadow: 5px 5px 10px rgb(194, 194, 194);
+}
+
+.half-width5 {
+    width: 100%;
+    margin-left: 12.5%;
+}
+
+.box {
+    margin-left: 7%;
+    margin-right: 7%;
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-bottom: 65px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 30px gainsboro;
+}
+
+.footer {
+    background-color: rgb(1, 1, 20);
+    width: 100%;
+    height: 300px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eat-fresh {
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.eat-healthy {
+    font-size: 20px;
+    margin-bottom: 20%;
 }
